@@ -1,0 +1,7 @@
+spring:
+  zipkin:
+    baseUrl: http://donateverse-zipkin:9411/
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://donateverse-discovery-server:8761/eureka/
