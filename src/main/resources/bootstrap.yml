@@ -14,6 +14,9 @@ zuul:
   routes:
     user:
       path: /user/**
-      serviceId: donateverse-USER
+      serviceId: donateverse-user
+    donation:
+      path: /donation/**
+      serviceId: donateverse-transaction
 ribbon:
   ReadTimeout: 60000
